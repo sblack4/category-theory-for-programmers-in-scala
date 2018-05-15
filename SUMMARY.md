@@ -1,9 +1,7 @@
 # Table of contents
 
 * [README](README.md)
-* [README](scala-category-theory.md)
-* [changelog](changelog.md)
-* [Category Theory for Programmers \[WIP\]](category-theory-for-programmers/README.md)
+* [Category Theory for Programmers](category-theory-for-programmers/README.md)
   * [preface](category-theory-for-programmers/preface.md)
   * part\_one
     * [ch01](category-theory-for-programmers/part_one/ch01.md)
@@ -39,4 +37,5 @@
     * [ch13](category-theory-for-programmers/part_three/ch13.md)
     * [ch14](category-theory-for-programmers/part_three/ch14.md)
     * [ch15](category-theory-for-programmers/part_three/ch15.md)
+* [changelog](changelog.md)
 

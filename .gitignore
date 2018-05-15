@@ -1,8 +1,7 @@
-<<<<<<< HEAD
 *.class
 *.log
 target/
 .ensime*
-=======
 build
->>>>>>> ctfp/master
+_book
+node_modules
