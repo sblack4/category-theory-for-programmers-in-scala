@@ -6,7 +6,7 @@ https://keepachangelog.com/en/1.0.0/
 - looking into using jupyter 
     - https://github.com/jupyter/jupyter/wiki/Jupyter-kernels 
     - https://github.com/jupyter-scala/jupyter-scala
-    - https://github.com/gibiansky/IHaskell 
+    - https://github.com/gibiansky/IHaskell
 
 ## ORIGIN 
 
@@ -17,6 +17,12 @@ I want to be able to:
 - execute code from the book
 
 ### **Resources** used/to use
+To run the code in the book is possible but a lot of work
+unless we use something like Jupyter/Zeppelin Notebooks
+which could be really cool - but is it necessary? 
 
-- Any other information future humans will need to understand this repo! 
+if we go docusaurus/hugo the code could be formatted really pretty 
+but I don't know if we can make that executable...
+There doesn't seem to be that much emphasis on code in the 
+books anyways 
 

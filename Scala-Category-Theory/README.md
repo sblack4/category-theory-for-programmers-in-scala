@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-# Category Theory for Programmers (in Scala)
-from Bartosz Milewskis book on Category Theory 
-
-and help from others, particularly 
-- @elbaulp https://github.com/elbaulp/Scala-Category-Theory
-- @onlurking https://github.com/onlurking/category-theory-for-programmers 
-=======
 # Scala-Category-Theory
 
 [Bartosz Milewski](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/) great book on *Category Theory* implemented in scala, with Property Tests.
@@ -48,4 +40,3 @@ The contribution guidelines outline the process that you'll need to follow to ge
 And you don't just have to write code. You can help out by writing documentation, tests, or even by giving feedback about this work. (And yes, that includes giving feedback about the contribution guidelines.)
 
 Thank you for contributing!
->>>>>>> sct/master
