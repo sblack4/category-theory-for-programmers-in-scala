@@ -5,7 +5,8 @@
         "prism-ext", 
         "prism-ASH", 
         "-highlight", 
-        "noembed"
+        "noembed",
+        "youtube"
     ],
     "pluginsConfig": {
         "prism": {
