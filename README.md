@@ -1,3 +1,7 @@
+---
+description: About this book/repo
+---
+
 # README
 
 from Bartosz Milewskis book on Category Theory

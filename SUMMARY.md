@@ -38,5 +38,5 @@
     * [ch14](category-theory-for-programmers-wip/part_three/ch14.md)
     * [ch15](category-theory-for-programmers-wip/part_three/ch15.md)
 * [changelog](changelog.md)
-* [README](readme-1.md)
+* README
 
