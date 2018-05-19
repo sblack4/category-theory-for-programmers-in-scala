@@ -4,7 +4,7 @@
 * [Category Theory for Programmers \[WIP\]](category-theory-for-programmers-wip/README.md)
   * [preface](category-theory-for-programmers-wip/preface.md)
   * part\_one
-    * [ch01](category-theory-for-programmers-wip/part_one/ch01.md)
+    * [1. Category: The Essence of Composition](category-theory-for-programmers-wip/part_one/ch01.md)
     * [ch02](category-theory-for-programmers-wip/part_one/ch02.md)
     * [ch03](category-theory-for-programmers-wip/part_one/ch03.md)
     * [ch04](category-theory-for-programmers-wip/part_one/ch04.md)
