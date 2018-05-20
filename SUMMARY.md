@@ -4,16 +4,16 @@
 * [Category Theory for Programmers \[WIP\]](category-theory-for-programmers-wip/README.md)
   * [preface](category-theory-for-programmers-wip/preface.md)
   * part\_one
-    * [1. Category: The Essence of Composition](category-theory-for-programmers-wip/part_one/ch01.md)
-    * [ch02](category-theory-for-programmers-wip/part_one/ch02.md)
-    * [ch03](category-theory-for-programmers-wip/part_one/ch03.md)
-    * [ch04](category-theory-for-programmers-wip/part_one/ch04.md)
-    * [ch05](category-theory-for-programmers-wip/part_one/ch05.md)
-    * [ch06](category-theory-for-programmers-wip/part_one/ch06.md)
-    * [ch07](category-theory-for-programmers-wip/part_one/ch07.md)
-    * [ch08](category-theory-for-programmers-wip/part_one/ch08.md)
-    * [ch09](category-theory-for-programmers-wip/part_one/ch09.md)
-    * [ch10](category-theory-for-programmers-wip/part_one/ch10.md)
+    * [Category: The Essence of Composition](category-theory-for-programmers-wip/part_one/ch01.md)
+    * [Types & Functions](category-theory-for-programmers-wip/part_one/ch02.md)
+    * [Categories Great & Small](category-theory-for-programmers-wip/part_one/ch03.md)
+    * [Kleisli Categories](category-theory-for-programmers-wip/part_one/ch04.md)
+    * [Products & Coproducts](category-theory-for-programmers-wip/part_one/ch05.md)
+    * [Simple Algebraic Data Types](category-theory-for-programmers-wip/part_one/ch06.md)
+    * [Functors](category-theory-for-programmers-wip/part_one/ch07.md)
+    * [Functionality](category-theory-for-programmers-wip/part_one/ch08.md)
+    * [Function Types](category-theory-for-programmers-wip/part_one/ch09.md)
+    * [Natural Transformations](category-theory-for-programmers-wip/part_one/ch10.md)
   * part\_two
     * [ch01](category-theory-for-programmers-wip/part_two/ch01.md)
     * [ch02](category-theory-for-programmers-wip/part_two/ch02.md)
@@ -39,4 +39,5 @@
     * [ch15](category-theory-for-programmers-wip/part_three/ch15.md)
 * [changelog](changelog.md)
 * README
+* [Index](index.md)
 
