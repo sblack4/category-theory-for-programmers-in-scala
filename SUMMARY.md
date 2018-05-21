@@ -38,6 +38,4 @@
     * [Lawvere Theories](category-theory-for-programmers/part_three/ch14.md)
     * [Monads, Monoids, & Categories](category-theory-for-programmers/part_three/ch15.md)
 * [changelog](changelog.md)
-* README
-* Index
 
