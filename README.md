@@ -1,7 +1,3 @@
----
-description: About this book/repo
----
-
 # README
 
 **Here is a talk the author gave that gives a little background**  

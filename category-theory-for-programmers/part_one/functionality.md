@@ -48,7 +48,7 @@ When declaring an instance of `Bifunctor`, you have a choice of either implement
 
 ## Product and Coproduct Bifunctors
 
-An important example of a bifunctor is the categorical product — a product of two objects that is defined by a [universal construction](ch08.md#products-and-coproducts). If the product exists for any pair of objects, the mapping from those objects to the product is bifunctorial. This is true in general, and in Haskell in particular. Here’s the `Bifunctor` instance for a pair constructor — the simplest product type:
+An important example of a bifunctor is the categorical product — a product of two objects that is defined by a [universal construction](functionality.md#products-and-coproducts). If the product exists for any pair of objects, the mapping from those objects to the product is bifunctorial. This is true in general, and in Haskell in particular. Here’s the `Bifunctor` instance for a pair constructor — the simplest product type:
 
 ```haskell
 instance Bifunctor (,) where
@@ -251,7 +251,7 @@ This implementation can also be automatically derived by the compiler.
 
 ## The Writer Functor
 
-I promised that I would come back to the [Kleisli category](ch08.md#kleisli-categories) I described earlier. Morphisms in that category were represented as “embellished” functions returning the `Writer` data structure.
+I promised that I would come back to the [Kleisli category](functionality.md#kleisli-categories) I described earlier. Morphisms in that category were represented as “embellished” functions returning the `Writer` data structure.
 
 ```haskell
 type Writer a = (a, String)

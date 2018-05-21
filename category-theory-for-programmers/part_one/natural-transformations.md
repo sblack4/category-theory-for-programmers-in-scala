@@ -226,7 +226,7 @@ instance Functor (Reader e) where
     fmap f (Reader g) = Reader (\x -> f (g x))
 ```
 
-For every type `e`, you can define a family of natural transformations from `Reader e` to any other functor `f`. We’ll see later that the members of this family are always in one to one correspondence with the elements of `f e` \(the [Yoneda lemma](ch10.md#the-yoneda-lemma)\).
+For every type `e`, you can define a family of natural transformations from `Reader e` to any other functor `f`. We’ll see later that the members of this family are always in one to one correspondence with the elements of `f e` \(the [Yoneda lemma](natural-transformations.md#the-yoneda-lemma)\).
 
 For instance, consider the somewhat trivial unit type `()` with one element `()`. The functor `Reader ()` takes any type `a` and maps it into a function type `()->a`. These are just all the functions that pick a single element from the set `a`. There are as many of these as there are elements in `a`. Now let’s consider natural transformations from this functor to the `Maybe` functor:
 

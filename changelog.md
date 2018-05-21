@@ -3,14 +3,16 @@
 [https://keepachangelog.com/en/1.0.0/](https://keepachangelog.com/en/1.0.0/)
 
 ## 2018-05-21
+
 #### removed
-- old folder for building 
+
+* old folder for building 
 
 #### added
-- prismjs plugin
-- book.json file
-- titles & videos 
 
+* prismjs plugin
+* book.json file
+* titles & videos 
 
 ## 2018-05-14
 
