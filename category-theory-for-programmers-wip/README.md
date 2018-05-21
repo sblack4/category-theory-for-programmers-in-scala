@@ -1,4 +1,4 @@
-# Category Theory for Programmers \[WIP\]
+# Category Theory for Programmers
 
 This is an e-book version of Bartosz Milewski's [Category Theory for Programmers](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/) work.
 
