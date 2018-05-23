@@ -2,6 +2,10 @@
 
 [https://keepachangelog.com/en/1.0.0/](https://keepachangelog.com/en/1.0.0/)
 
+## 2018-05-22
+
+I keep getting lost with definitions - I need a definition repository.  None of the current solutions on the itnernet seem great. there is the stanford encyclopedia, [https://plato.stanford.edu/entries/category-theory/](https://plato.stanford.edu/entries/category-theory/), and a few texts online.... actually this repo could do with a resources section
+
 ## 2018-05-21
 
 #### removed
