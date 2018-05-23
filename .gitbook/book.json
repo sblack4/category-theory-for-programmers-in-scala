@@ -1,5 +1,6 @@
 {
     "root": "../",
+    "title": "Cateogry Theory for Programmers", 
     "plugins": [
         "folding-chapters", 
         "prism",
