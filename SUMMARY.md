@@ -37,6 +37,8 @@
     * [Topoi](category-theory-for-programmers/part_three/ch13.md)
     * [Lawvere Theories](category-theory-for-programmers/part_three/ch14.md)
     * [Monads, Monoids, & Categories](category-theory-for-programmers/part_three/ch15.md)
+  * extra
+    * definitions
+    * resources
 * [changelog](changelog.md)
-* definitions
 
