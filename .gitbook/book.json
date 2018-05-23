@@ -1,0 +1,15 @@
+{
+    "root": "../",
+    "plugins": [
+        "folding-chapters", 
+        "prism",
+        "-highlight"
+    ],
+    "pluginsConfig": {
+        "prism": {
+          "css": [
+              "prismjs/themes/prism-okaidia.css"
+          ]
+        }
+      }
+}

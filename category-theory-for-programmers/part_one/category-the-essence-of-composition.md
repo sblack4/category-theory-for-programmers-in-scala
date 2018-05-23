@@ -1,8 +1,7 @@
 # Category: The Essence of Composition
 
-{% embed data="{\"url\":\"https://youtu.be/p54Hd7AmVFU\",\"type\":\"video\",\"title\":\"Category Theory 1.2: What is a category?\",\"description\":\"What is a Category?\",\"icon\":{\"type\":\"icon\",\"url\":\"https://www.youtube.com/yts/img/favicon\_144-vfliLAfaB.png\",\"width\":144,\"height\":144,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://i.ytimg.com/vi/p54Hd7AmVFU/maxresdefault.jpg\",\"width\":1280,\"height\":720,\"aspectRatio\":0.5625},\"embed\":{\"type\":\"player\",\"url\":\"https://www.youtube.com/embed/p54Hd7AmVFU?rel=0&showinfo=0\",\"html\":\"<div style=\\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2493%;\\"><iframe src=\\"https://www.youtube.com/embed/p54Hd7AmVFU?rel=0&amp;showinfo=0\\" style=\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\" allowfullscreen scrolling=\\"no\\"></iframe></div>\",\"aspectRatio\":1.7778}}" %}
 
-
+<iframe width="742" height="417" src="https://www.youtube.com/embed/p54Hd7AmVFU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 > I was overwhelmed by the positive response to my previous post, the [Preface to Category Theory for Programmers](../preface.md). At the same time, it scared the heck out of me because I realized what high expectations people were placing in me. I’m afraid that no matter what I’ll write, a lot of readers will be disappointed. Some readers would like the book to be more practical, others more abstract. Some hate C++ and would like all examples in Haskell, others hate Haskell and demand examples in Java. And I know that the pace of exposition will be too slow for some and too fast for others. This will not be the perfect book. It will be a compromise. All I can hope is that I’ll be able to share some of my aha! moments with my readers. Let’s start with the basics.
 
