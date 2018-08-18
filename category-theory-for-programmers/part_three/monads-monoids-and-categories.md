@@ -86,7 +86,7 @@ A 2-cell in **Span**.
 
 To summarize, in the bicategory **Span**: 0-cells are sets, 1-cells are spans, 2-cells are span morphisms. An identity 1-cell is a degenerate span in which all three objects are the same, and the two morphisms are identities.
 
-We’ve seen another example of a bicategory before: the bicategory **Prof** of [profunctors](ch15.md#ends-and-coends/), where 0-cells are categories, 1-cells are profunctors, and 2-cells are natural transformations. The composition of profunctors was given by a coend.
+We’ve seen another example of a bicategory before: the bicategory **Prof** of [profunctors](monads-monoids-and-categories.md#ends-and-coends/), where 0-cells are categories, 1-cells are profunctors, and 2-cells are natural transformations. The composition of profunctors was given by a coend.
 
 ## Monads
 

@@ -14,7 +14,7 @@ Now let’s vary `a` in this mapping. We get a new mapping that assigns the hom-
 a -> C(a, -)
 ```
 
-It’s a mapping of objects from category _C_ to functors, which are _objects_ in the functor category \(see the section about functor categories in [Natural Transformations](ch06.md#natural-transformations)\). Let’s use the notation `[C, Set]` for the functor category from _C_ to **Set**. You may also recall that hom-functors are the prototypical [representable functors](ch06.md#kleisli-categories).
+It’s a mapping of objects from category _C_ to functors, which are _objects_ in the functor category \(see the section about functor categories in [Natural Transformations](yoneda-embedding.md#natural-transformations)\). Let’s use the notation `[C, Set]` for the functor category from _C_ to **Set**. You may also recall that hom-functors are the prototypical [representable functors](yoneda-embedding.md#kleisli-categories).
 
 Every time we have a mapping of objects between two categories, it’s natural to ask if such a mapping is also a functor. In other words whether we can lift a morphism from one category to a morphism in the other category. A morphism in _C_ is just an element of `C(a, b)`, but a morphism in the functor category `[C, Set]` is a natural transformation. So we are looking for a mapping of morphisms to natural transformations.
 
@@ -58,7 +58,7 @@ defines the _Yoneda embedding_. It _embeds_ a category _C_ \(strictly speaking, 
 
 This is a very useful result because mathematicians know a lot about the category of functors, especially functors whose codomain is **Set**. We can get a lot of insight about an arbitrary category _C_ by embedding it in the functor category.
 
-Of course there is a dual version of the Yoneda embedding, sometimes called the co-Yoneda embedding. Observe that we could have started by fixing the target object \(rather than the source object\) of each hom-set, `C(-, a)`. That would give us a contravariant hom-functor. Contravariant functors from _C_ to **Set** are our familiar presheaves \(see, for instance, [Limits and Colimits](ch06.md#limits-and-colimits)\). The co-Yoneda embedding defines the embedding of a category _C_ in the category of presheaves. Its action on morphisms is given by:
+Of course there is a dual version of the Yoneda embedding, sometimes called the co-Yoneda embedding. Observe that we could have started by fixing the target object \(rather than the source object\) of each hom-set, `C(-, a)`. That would give us a contravariant hom-functor. Contravariant functors from _C_ to **Set** are our familiar presheaves \(see, for instance, [Limits and Colimits](yoneda-embedding.md#limits-and-colimits)\). The co-Yoneda embedding defines the embedding of a category _C_ in the category of presheaves. Its action on morphisms is given by:
 
 ```text
 [C, Set](C(-, a), C(-, b)) ≅ C(a, b)

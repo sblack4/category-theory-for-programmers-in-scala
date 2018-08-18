@@ -338,7 +338,7 @@ I’m not going to prove that these two functions are the inverse of each other,
 Mathematicians have a name for such two intertwined monoids: it’s called a _semiring_. It’s not a full _ring_, because we can’t define subtraction of types. That’s why a semiring is sometimes called a _rig_, which is a pun on “ring without an _n_” \(negative\). But barring that, we can get a lot of mileage from translating statements about, say, natural numbers, which form a ring, to statements about types. Here’s a translation table with some entries of interest:
 
 | Numbers | Types |
-| --- | --- | --- | --- | --- | --- | --- |
+| :--- | :--- |
 | 0 | \`Void\` |
 | 1 | \`\(\)\` |
 | a + b | \`Either a b = Left a \| Right b\` |
@@ -377,7 +377,7 @@ Solving equations with symbolic variables — that’s algebra! It’s what give
 Finally, I should mention one very important interpretation of the algebra of types. Notice that a product of two types `a` and `b` must contain both a value of type `a` _and_ a value of type `b`, which means both types must be inhabited. A sum of two types, on the other hand, contains either a value of type `a` _or_ a value of type `b`, so it’s enough if one of them is inhabited. Logical _and_ and _or_ also form a semiring, and it too can be mapped into type theory:
 
 | Logic | Types |
-| --- | --- | --- | --- | --- |
+| :--- | :--- |
 | false | \`Void\` |
 | true | \`\(\)\` |
 | a \|\| b | \`Either a b = Left a \| Right b\` |

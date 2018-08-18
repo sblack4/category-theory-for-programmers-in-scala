@@ -1,6 +1,6 @@
 # Limits and Colimits
 
-It seems like in category theory everything is related to everything and everything can be viewed from many angles. Take for instance the universal construction of the [product](ch02.md#products-and-coproducts). Now that we know more about [functors](ch02.md#functors) and [natural transformations](ch02.md#natural-transformations), can we simplify and, possibly, generalize it? Let us try.
+It seems like in category theory everything is related to everything and everything can be viewed from many angles. Take for instance the universal construction of the [product](limits-and-colimits.md#products-and-coproducts). Now that we know more about [functors](limits-and-colimits.md#functors) and [natural transformations](limits-and-colimits.md#natural-transformations), can we simplify and, possibly, generalize it? Let us try.
 
 ![](https://github.com/sblack4/category-theory-for-programmers-in-scala/tree/9485f630ea1c0af12dd698031563c371123c603a/category-theory-for-programmers/part_two/images/productpattern.jpg)
 

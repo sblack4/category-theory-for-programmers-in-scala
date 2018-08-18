@@ -331,7 +331,7 @@ You might have seen it emblazoned on some t-shirts at functional programming con
 
 ## Monads from Adjunctions
 
-An [adjunction](ch06.md#adjunctions), `L ⊣ R`, is a pair of functors going back and forth between two categories _C_ and _D_. There are two ways of composing them giving rise to two endofunctors, `R ∘ L` and `L ∘ R`. As per an adjunction, these endofunctors are related to identity functors through two natural transformations called unit and counit:
+An [adjunction](monads-catagorically.md#adjunctions), `L ⊣ R`, is a pair of functors going back and forth between two categories _C_ and _D_. There are two ways of composing them giving rise to two endofunctors, `R ∘ L` and `L ∘ R`. As per an adjunction, these endofunctors are related to identity functors through two natural transformations called unit and counit:
 
 ```text
 η :: ID -> R ∘ L

@@ -1,8 +1,6 @@
 # README
 
-**Here is a talk the author gave that gives a little background**  
-
-<iframe width="742" height="417" src="https://www.youtube.com/embed/JH_Ou17_zyU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+**Here is a talk the author gave that gives a little background**
 
 from Bartosz Milewskis book on Category Theory
 
@@ -25,8 +23,8 @@ I want to learn Category Theory, Functional Programming, and Scala.
 
 _\(We can check them off as we absorb their smarticles\)_
 
-* [X] others already doing this in scala [https://github.com/elbaulp/Scala-Category-Theory](https://github.com/elbaulp/Scala-Category-Theory)
-* [X] others compiling nice books  [https://github.com/onlurking/category-theory-for-programmers](https://github.com/onlurking/category-theory-for-programmers) 
+* \[X\] others already doing this in scala [https://github.com/elbaulp/Scala-Category-Theory](https://github.com/elbaulp/Scala-Category-Theory)
+* \[X\] others compiling nice books  [https://github.com/onlurking/category-theory-for-programmers](https://github.com/onlurking/category-theory-for-programmers) 
 * [ ] reading great blogs [https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/) 
 * [ ] making cool courses [https://www.coursera.org/learn/progfun1](https://www.coursera.org/learn/progfun1)
 * [ ] writing about languages they designed [https://www.artima.com/shop/programming\_in\_scala\_3ed](https://www.artima.com/shop/programming_in_scala_3ed) 

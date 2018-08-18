@@ -1,6 +1,6 @@
 # Algebra for Monads
 
-If we interpret endofunctors as ways of defining expressions, algebras let us evaluate them and monads let us form and manipulate them. By combining algebras with monads we not only gain a lot of functionality but we can also answer a few interesting questions. One such question concerns the relation between monads and adjunctions. As we’ve seen, every adjunction [defines a monad](ch09.md#monads-Categorically) \(and a comonad\). The question is: Can every monad \(comonad\) be derived from an adjunction? The answer is positive. There is a whole family of adjunctions that generate a given monad. I’ll show you two such adjunction.
+If we interpret endofunctors as ways of defining expressions, algebras let us evaluate them and monads let us form and manipulate them. By combining algebras with monads we not only gain a lot of functionality but we can also answer a few interesting questions. One such question concerns the relation between monads and adjunctions. As we’ve seen, every adjunction [defines a monad](algebra-for-monads.md#monads-Categorically) \(and a comonad\). The question is: Can every monad \(comonad\) be derived from an adjunction? The answer is positive. There is a whole family of adjunctions that generate a given monad. I’ll show you two such adjunction.
 
 ![](https://github.com/sblack4/category-theory-for-programmers-in-scala/tree/9485f630ea1c0af12dd698031563c371123c603a/category-theory-for-programmers/part_three/images/pigalg.png)
 
@@ -243,7 +243,7 @@ So this is the second adjunction that produces the same monad. In fact there is 
 
 ## Coalgebras for Comonads
 
-Analogous constructions can be done for any [comonad](ch09.md#comonads) `W`. We can define a category of coalgebras that are compatible with a comonad. They make the following diagrams commute:
+Analogous constructions can be done for any [comonad](algebra-for-monads.md#comonads) `W`. We can define a category of coalgebras that are compatible with a comonad. They make the following diagrams commute:
 
 ![](https://github.com/sblack4/category-theory-for-programmers-in-scala/tree/9485f630ea1c0af12dd698031563c371123c603a/category-theory-for-programmers/part_three/images/talg5.png)
 

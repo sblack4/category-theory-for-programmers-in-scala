@@ -1,9 +1,5 @@
 # preface
 
-
-<iframe width="742" height="417" src="https://www.youtube.com/embed/I8LbkfSSR58" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-
 > For some time now I’ve been floating the idea of writing a book about [category theory](https://en.wikipedia.org/wiki/Category_theory) that would be targeted at programmers. Mind you, not computer scientists but programmers — engineers rather than scientists. I know this sounds crazy and I am properly scared. I can’t deny that there is a huge gap between science and engineering because I have worked on both sides of the divide. But I’ve always felt a very strong compulsion to explain things. I have tremendous admiration for[ Richard Feynman](https://en.wikipedia.org/wiki/Richard_Feynman) who was the master of simple explanations. I know I’m no Feynman, but I will try my best. I’m starting by publishing this preface — which is supposed to motivate the reader to learn category theory — in hopes of starting a discussion and soliciting feedback.
 
 I will attempt, in the space of a few paragraphs, to convince you that this book is written for you, and whatever objections you might have to learning one of the most abstract branches of mathematics in your “copious spare time” are totally unfounded.

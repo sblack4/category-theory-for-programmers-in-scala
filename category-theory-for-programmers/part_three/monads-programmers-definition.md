@@ -41,7 +41,7 @@ I’m not arguing that Haskell’s point-free style is always better, just that 
 
 ## The Kleisli Category
 
-We have previously arrived at the [writer monad](ch04.md#writer-monad) by embellishing regular functions. The particular embellishment was done by pairing their return values with strings or, more generally, with elements of a monoid. We can now recognize that such embellishment is a functor:
+We have previously arrived at the [writer monad](monads-programmers-definition.md#writer-monad) by embellishing regular functions. The particular embellishment was done by pairing their return values with strings or, more generally, with elements of a monoid. We can now recognize that such embellishment is a functor:
 
 ```text
 newtype Writer w a = Writer (a, w)

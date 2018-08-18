@@ -39,7 +39,7 @@ The type variable `f` represents the bifunctor. You can see that in all type sig
 The two other type signatures, `first` and `second`, are the two `fmap`s witnessing the functoriality of `f` in the first and the second argument, respectively.
 
 |  !\[first\]\(images/first.jpg\) |  !\[second\]\(images/second.jpg\) |
-| --- |
+| :--- | :--- |
 
 
 The typeclass definition provides default implementations for both of them in terms of `bimap`.

@@ -57,7 +57,7 @@ The third part of the universal construction is selecting the object that is uni
 Formally:
 
 | A \*\*function object\*\* from \`a\` to \`b\` is an object \`a⇒b\` together with the morphism \`\`\` eval :: \(\(a⇒b\) × a\) -&gt; b \`\`\` such that for any other object \`z\` with a morphism \`\`\` g :: z × a -&gt; b \`\`\` there is a unique morphism \`\`\` h :: z -&gt; \(a⇒b\) \`\`\` that factors \`g\` through \`eval\`: \`\`\` g = eval ∘ \(h × id\) \`\`\` |
-| --- |
+| :--- |
 
 
 Of course, there is no guarantee that such an object `a⇒b` exists for any pair of objects `a` and `b` in a given category. But it always does in **Set**. Moreover, in **Set**, this object is isomorphic to the hom-set _Set\(a, b\)_.

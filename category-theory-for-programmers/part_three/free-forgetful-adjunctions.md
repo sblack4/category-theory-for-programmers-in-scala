@@ -15,7 +15,7 @@ Things to keep in mind:
 
 ![Monoids m&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt; and m&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt; have the same underlying set. There are more functions between the underlying sets of m&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt; and m&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt; than there are morphisms between them.](https://github.com/sblack4/category-theory-for-programmers-in-scala/tree/9485f630ea1c0af12dd698031563c371123c603a/category-theory-for-programmers/part_three/images/forgetful.jpg)
 
-The functor `F` that’s the left adjoint to the forgetful functor `U` is the free functor that builds free monoids from their generator sets. The adjunction follows from the [free monoid universal construction](ch03.md#free-monoids) we’ve discussed before.
+The functor `F` that’s the left adjoint to the forgetful functor `U` is the free functor that builds free monoids from their generator sets. The adjunction follows from the [free monoid universal construction](free-forgetful-adjunctions.md#free-monoids) we’ve discussed before.
 
 In terms of hom-sets, we can write this adjunction as:
 

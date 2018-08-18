@@ -275,7 +275,7 @@ lambda . bimap destroy id . split = id
 rho . bimap id destroy . split = id
 ```
 
-Here, `lambda` and `rho` are the left and right unitors, respectively \(see the definition of [monoidal categories](ch07.md#monad-categorically)\). Plugging in the definitions, we get:
+Here, `lambda` and `rho` are the left and right unitors, respectively \(see the definition of [monoidal categories](comonads.md#monad-categorically)\). Plugging in the definitions, we get:
 
 ```text
 lambda (bimap destroy id (split x))

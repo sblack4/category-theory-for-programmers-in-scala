@@ -1,8 +1,5 @@
 # Category: The Essence of Composition
 
-
-<iframe width="742" height="417" src="https://www.youtube.com/embed/p54Hd7AmVFU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
 > I was overwhelmed by the positive response to my previous post, the [Preface to Category Theory for Programmers](../preface.md). At the same time, it scared the heck out of me because I realized what high expectations people were placing in me. I’m afraid that no matter what I’ll write, a lot of readers will be disappointed. Some readers would like the book to be more practical, others more abstract. Some hate C++ and would like all examples in Haskell, others hate Haskell and demand examples in Java. And I know that the pace of exposition will be too slow for some and too fast for others. This will not be the perfect book. It will be a compromise. All I can hope is that I’ll be able to share some of my aha! moments with my readers. Let’s start with the basics.
 
 A category is an embarrassingly simple concept. A category consists of objects and arrows that go between them. That’s why categories are so easy to represent pictorially. An object can be drawn as a circle or a point, and an arrow… is an arrow. \(Just for variety, I will occasionally draw objects as piggies and arrows as fireworks.\) But the essence of a category is composition. Or, if you prefer, the essence of composition is a category. Arrows compose, so if you have an arrow from object A to object B, and another arrow from object B to object C, then there must be an arrow — their composition — that goes from A to C.
@@ -157,14 +154,24 @@ This process of hierarchical decomposition and recomposition is not imposed on u
 
 So what are the right chunks for the composition of programs? Their surface area has to increase slower than their volume. \(I like this analogy because of the intuition that the surface area of a geometric object grows with the square of its size — slower than the volume, which grows with the cube of its size.\) The surface area is the information we need in order to compose chunks. The volume is the information we need in order to implement them. The idea is that, once a chunk is implemented, we can forget about the details of its implementation and concentrate on how it interacts with other chunks. In object-oriented programming, the surface is the class declaration of the object, or its abstract interface. In functional programming, it’s the declaration of a function. \(I’m simplifying things a bit, but that’s the gist of it.\)
 
+![The right chunks are spheres ](../../.gitbook/assets/the-right-chunks.png)
+
 Category theory is extreme in the sense that it actively discourages us from looking inside the objects. An object in category theory is an abstract nebulous entity. All you can ever know about it is how it relates to other object — how it connects with them using arrows. This is how internet search engines rank web sites by analyzing incoming and outgoing links \(except when they cheat\). In object-oriented programming, an idealized object is only visible through its abstract interface \(pure surface, no volume\), with methods playing the role of arrows. The moment you have to dig into the implementation of the object in order to understand how to compose it with other objects, you’ve lost the advantages of your programming paradigm.
 
 ### Challenges
 
 1. Implement, as best as you can, the identity function in your favorite language \(or the second favorite, if your favorite language happens to be Haskell\).
+
+```scala
+def identityFunction(a: Any): Any = {
+  return a
+}
+```
+
 2. Implement the composition function in your favorite language. It takes two functions as arguments and returns a function that is their composition.
-3. Write a program that tries to test that your composition function respects identity.
-4. Is the world-wide web a category in any sense? Are links morphisms?
-5. Is Facebook a category, with people as objects and friendships as morphisms?
-6. When is a directed graph a category?
+
+1. Write a program that tries to test that your composition function respects identity.
+2. Is the world-wide web a category in any sense? Are links morphisms?
+3. Is Facebook a category, with people as objects and friendships as morphisms?
+4. When is a directed graph a category?
 
